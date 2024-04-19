@@ -18,6 +18,12 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    
+    int size = in.nextInt()
+    while (size != 0)
+    {
+      string = "*"*size;
+      System.out.println(string);
+      size--;
+    }
   }
 }

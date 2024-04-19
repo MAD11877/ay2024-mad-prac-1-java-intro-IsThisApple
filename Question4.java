@@ -16,12 +16,9 @@ public class Question4
      * 
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
-     
+
     Scanner scanner = new Scanner(System.in);
-
-    System.out.println("Enter the size of the triangle:");
     int size = scanner.nextInt();
-
     for (int i = size; i > 0; i--) 
     {
       for (int j = 0; j < i; j++) 

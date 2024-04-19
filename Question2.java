@@ -9,7 +9,6 @@ public class Question2
      * 
      * Hint: in.nextDouble() to read double
      */
-     
     Scanner in = new Scanner(System.in);
     double height = in.nextDouble();
     Scanner in1 = new Scanner(System.in);
